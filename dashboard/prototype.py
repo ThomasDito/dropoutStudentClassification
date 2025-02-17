@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model dan scaler terbaru
-model = joblib.load("model.pkl")
+model = joblib.load("../model.pkl")
 scaler = joblib.load("../scaler.pkl")
 
 # Title aplikasi
